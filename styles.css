@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+
+body {
+    background: rgba(41, 61, 90, 0.99);
+    
+}
+
+#temp {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+#temp img {
+    
+    width: 20vw;
+
+}
+
+header {
+    /* border: 1px solid red; */
+    height: 100vh;
+    position: relative;
+    
+}
+article {
+    /* border: 1px solid green; */
+    box-sizing: border-box;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    height: 50%;
+
+}
+
+header h4 {
+    font-family: 'Fira Code', monospace;
+    margin: 0%;
+    font-size: 1.5vw;
+    padding-bottom: 15px;
+    color: #34e8eb;
+}
+
+header p {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 4vw;
+    margin: 0%;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+header p span {
+    /* background-color: #34e8eb; */
+    /* color: #E6F1FF; */
+    /* text-decoration: underline; */
+    border-bottom: 3px solid #34e8eb;
+}
+
+.name {
+    color: #E6F1FF;
+}
+
+.p_line {
+    color: #8892B0;
+}
+
+/*Style for "Tablets"*/	
+@media only screen and (max-width: 768px){
+
+    header h4 {
+        font-size: 3vw;
+        padding-bottom: 5px;
+    }
+
+    header p {
+
+        font-size: 10vw;
+        padding-bottom: 5px;
+    }
+
+    header p span {
+        border-bottom: 2px solid #34e8eb;
+    }
+
+}
+
+/*Style for "Phones"*/
+@media only screen and (max-width: 480px){
+    
+    header h4 {
+        font-size: 3vw;
+        padding-bottom: 5px;
+    }
+
+    header p {
+
+        font-size: 10vw;
+        padding-bottom: 5px;
+    }
+
+    header p span {
+        border-bottom: 2px solid #34e8eb;
+    }
+}
+
