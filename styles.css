@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
 
+:root {
+
+    /* color properties */
+    --backgroung-color: rgba(41, 61, 90, 0.99);
+    --main-color: #34e8eb;
+    --heading-color: #E6F1FF;
+    --text-color: #8892B0;
+
+    /* left indent */
+    --left-indent: 8%;
+}
 * {
     box-sizing: border-box;
 }
@@ -11,7 +22,7 @@ html, body {
 }
 
 body {
-    background: rgba(41, 61, 90, 0.99);
+    background: var(--backgroung-color);
     
 }
 
@@ -35,10 +46,9 @@ header {
 }
 article {
     /* border: 1px solid green; */
-    box-sizing: border-box;
     position: absolute;
     top: 30%;
-    left: 8%;
+    left: var(--left-indent);
     height: 50%;
 
 }
@@ -48,7 +58,7 @@ header h4 {
     margin: 0%;
     font-size: 1.5vw;
     padding-bottom: 15px;
-    color: #34e8eb;
+    color: var(--main-color);
 }
 
 header p {
@@ -63,15 +73,63 @@ header p span {
     /* background-color: #34e8eb; */
     /* color: #E6F1FF; */
     /* text-decoration: underline; */
-    border-bottom: 3px solid #34e8eb;
+    border-bottom: 3px solid var(--main-color);
 }
 
-.name {
-    color: #E6F1FF;
+header article P:first-of-type {
+    color: var(--heading-color);
 }
 
-.p_line {
-    color: #8892B0;
+header article P:nth-of-type(2) {
+    color: var(--text-color);
+}
+
+/* Nav */
+
+nav {
+    height: 80px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: 0;
+    border: 1px solid green;
+    /* background-color: #cae8ca; */
+}
+
+nav img {
+
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    left: 3%;
+}
+
+nav ul {
+
+    margin: 0;
+    padding: 0 2.5% 0 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: right;
+}
+
+nav ul li a {
+
+    border: 1px solid green;
+    font-family: 'Fira Code', monospace;
+    height: 100%;
+    display: block;
+    font-size: 15px;
+    color: var(--heading-color);
+    text-decoration: none;
+    padding: 28px 10px;
+
 }
 
 /*Style for "Tablets"*/	
@@ -89,7 +147,7 @@ header p span {
     }
 
     header p span {
-        border-bottom: 2px solid #34e8eb;
+        border-bottom: 2px solid var(--main-color);
     }
 
 }
@@ -109,7 +167,7 @@ header p span {
     }
 
     header p span {
-        border-bottom: 2px solid #34e8eb;
+        border-bottom: 2px solid var(--main-color);
     }
 }
 
