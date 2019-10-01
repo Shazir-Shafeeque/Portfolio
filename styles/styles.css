@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
 
 :root {
-
     /* color properties */
     --backgroung-color: rgba(41, 61, 90, 0.99);
     --main-color: #34e8eb;
     --heading-color: #E6F1FF;
     --text-color: #8892B0;
-
     /* left indent */
     --left-indent: 8%;
 }
@@ -18,12 +16,11 @@
 html, body {
     margin: 0%;
     padding: 0%;
-    height: 100%;
 }
 
 body {
     background: var(--backgroung-color);
-    
+    /* border: 1px solid red; */
 }
 
 #temp {
@@ -33,24 +30,21 @@ body {
 }
 
 #temp img {
-    
     width: 20vw;
-
 }
 
 header {
     /* border: 1px solid red; */
     height: 100vh;
     position: relative;
-    
 }
+
 article {
     /* border: 1px solid green; */
     position: absolute;
     top: 30%;
     left: var(--left-indent);
     height: 50%;
-
 }
 
 header h4 {
@@ -88,11 +82,12 @@ header article P:nth-of-type(2) {
 
 nav {
     height: 80px;
-    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); */
     /* position: -webkit-sticky; */
     position: sticky;
     top: 0;
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    background-color: var(--backgroung-color);
     /* background-color: #cae8ca; */
 }
 
@@ -107,67 +102,47 @@ nav img {
 }
 
 nav ul {
-
     margin: 0;
-    padding: 0 2.5% 0 0;
+    padding: 0 1.5% 0 0;
+    text-align: right;
 }
 
 nav ul li {
     margin: 0;
     padding: 0;
-    display: block;
-    float: right;
+    /* display: block;
+    float: right; */
+    display: inline-block;
 }
 
 nav ul li a {
-
-    border: 1px solid green;
+    /* border: 1px solid green; */
     font-family: 'Fira Code', monospace;
-    height: 100%;
+    /* height: 100%; */
     display: block;
     font-size: 15px;
     color: var(--heading-color);
     text-decoration: none;
-    padding: 28px 10px;
-
+    padding: 28px 13px;
 }
 
-/*Style for "Tablets"*/	
-@media only screen and (max-width: 768px){
-
-    header h4 {
-        font-size: 3vw;
-        padding-bottom: 5px;
-    }
-
-    header p {
-
-        font-size: 10vw;
-        padding-bottom: 5px;
-    }
-
-    header p span {
-        border-bottom: 2px solid var(--main-color);
-    }
-
+nav ul li a:hover {
+    color: var(--main-color);
+    padding: 28px 4px;
 }
 
-/*Style for "Phones"*/
-@media only screen and (max-width: 480px){
-    
-    header h4 {
-        font-size: 3vw;
-        padding-bottom: 5px;
-    }
-
-    header p {
-
-        font-size: 10vw;
-        padding-bottom: 5px;
-    }
-
-    header p span {
-        border-bottom: 2px solid var(--main-color);
-    }
+nav ul li a:hover::before {
+    font-family: 'Fira Code', monospace;
+    content: "{";
+    color: var(--heading-color);
 }
+
+nav ul li a:hover::after {
+    font-family: 'Fira Code', monospace;
+    content: "}";
+    color: var(--heading-color);
+}
+
+
+
 

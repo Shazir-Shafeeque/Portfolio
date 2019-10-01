@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+
+/*Style for "Tablets"*/	
+@media only screen and (max-width: 768px){
+
+    header h4 {
+        font-size: 3vw;
+        padding-bottom: 5px;
+    }
+
+    header p {
+
+        font-size: 10vw;
+        padding-bottom: 5px;
+    }
+
+    header p span {
+        border-bottom: 2px solid var(--main-color);
+    }
+
+}
