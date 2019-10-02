@@ -102,7 +102,7 @@
         display: block;
     }
     
-     nav ul li a:hover {
+    nav ul li a:hover {
         color: var(--text-color);
         padding: 10px 4px;
     }

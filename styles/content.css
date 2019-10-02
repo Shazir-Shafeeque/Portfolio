@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+
+#about-me {
+    height: 85vh;
+    width: 100vw;
+    position: relative;
+}
+
+#about-me article {
+    position: absolute;
+    top: 15%;
+    left: var(--left-indent);
+}
+
+#about-me article h3 {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color: var(--heading-color);
+    font-size: 2vw;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+#about-me article h3::after {
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 20vw;
+    background-color: var(--main-color);
+    position: relative;
+    top: 1vw;
+    padding: 0;
+    margin: 4px 0 0 20px;
+    
+}
+
