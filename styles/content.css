@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
 
+h3, p {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+p {
+    font-size: 20px;
+    color: var(--text-color);
+    text-align: left;
+}
 #about-me {
     height: 85vh;
     width: 100vw;
@@ -13,7 +22,6 @@
 }
 
 #about-me article h3 {
-    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     color: var(--heading-color);
     font-size: 2vw;
     /* border: 1px solid red; */
@@ -31,5 +39,32 @@
     padding: 0;
     margin: 4px 0 0 20px;
     
+}
+
+#about-me p {
+    /* border: 1px solid red; */
+    width: 30vw;
+}
+
+#about-me span {
+    color: var(--main-color);
+}
+
+#about-me ul {
+    list-style: none;
+    font-family: 'Fira Code', monospace;
+}
+
+#about-me li::before {
+    content: ' \005C';
+    color: var(--main-color);
+    padding-right: 15px;
+}
+
+#about-me li {
+    color: var(--text-color);
+    padding: 0 0 5px 7px;
+    font-size: 14px;
+
 }
 
