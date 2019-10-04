@@ -18,4 +18,39 @@
         border-bottom: 2px solid var(--main-color);
     }
 
+    /* content (about-me) */
+
+    #about-me article {
+        width: calc(100vw - (2 * var(--left-indent)));
+        /* border: 1px solid red; */
+        /* overflow: hidden !important; */
+        
+    }
+
+    #about-me article h3 {
+        font-size: 6vw;
+        /* border: 1px solid red; */
+    }
+
+    #about-me article #line {
+        width: 55vw;
+        margin: 0 0 0 2vw;
+        /* float: left !important; */
+        /* border: 1px solid red; */
+        /* transform: translateY(-5px); */
+}
+
+    /* #about-me article h3::after {
+        width: 59vw !important;
+        margin: 4px 0 0 8px !important;
+        top: 3vw !important;
+    } */
+
+    #about-me p {
+        font-size: 17px;
+        text-align: justify;
+        width: 100%;
+        /* border: 1px solid yellow; */
+    }
+
 }

@@ -7,10 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="logo.png" type="image/png" sizes="16x16">
   <meta name="keywords" content="shazir,portfolio">
+
   <link rel="stylesheet" href="styles/styles.css">
-  <link rel="stylesheet" href="styles/mobile.css">
-  <link rel="stylesheet" href="styles/tablet.css">
   <link rel="stylesheet" href="styles/content.css">
+  <link rel="stylesheet" href="styles/tablet.css">
+  <link rel="stylesheet" href="styles/mobile.css">
+  
   <script src="script.js"></script>
   <!-- Load an icon library to show a hamburger menu (bars) for small screens -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,6 +20,8 @@
 </head>
 
 <body>
+  <!-- blanket -->
+  <div id="blanket" class="blanket"></div>
 <!-- temporary -->
   <div id="temp">
     <img src="underconstruction1.png">
@@ -42,7 +46,7 @@
             <div id="bar3" class="bar"></div>
         </div>
         <ul class="nav" id="nav">
-          <li><a href="#about-me">About</a></li>
+          <li><a href="#about-me" onclick="onClickMenu()">About</a></li>
           <li><a href="javascript:void(0);">Experience</a></li>
           <li><a href="javascript:void(0);">Achievement</a></li>
           <li><a href="javascript:void(0);">Skill</a></li>
@@ -54,24 +58,35 @@
     </nav>
 
     <section id="about-me">
-      <article>
-        <h3>About me</h3>
-        <p>Hi! I am Shazir, a computer engineer from Sri Lanka, who write programs to solve problems and create more efficient ways of doing things.
-          I have the functional knowledge and ability to take a concept and turn it into a finished product.
-        </p>
+      <section>
+        <article>
+          <div class="heading">
+            <h3>About me</h3>
+            <div id="line"></div>
+          </div>
+          <p>Hi! I am Shazir, a computer engineer from Sri Lanka, who write programs to solve problems and create more efficient ways of doing things.
+            I have the functional knowledge and ability to take a concept and turn it into a finished product.
+          </p>
 
-        <p>Soon after graduating, I worked as a freelancer, until I joined the <span>re:Start bootcamp</span>
-          program to enhance my knowledge as a full-stack developer.</p>
+          <p>Soon after graduating, I worked as a freelancer, until I joined the <span>re:Start bootcamp</span>
+            program to enhance my knowledge as a full-stack developer.</p>
 
-        <p>Here's a few technologies I've been used recently:</p>
+          <p>Here's a few technologies I've been used recently:</p>
 
-        <ul>
-          <li>HTML & CSS</li>
-          <li>JavaScript</li>
-          <li>jQuery</li>
-          <li>SQL Server</li>
-        </ul>
-      </article>
+          <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>SQL Server</li>
+          </ul>
+        </article>
+      </section>
+      <section>
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <img src="profile.jpg">
+      </section>
+      
     </section>
 
     <section id="experience">

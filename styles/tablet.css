@@ -17,6 +17,25 @@
     header p span {
         border-bottom: 2px solid var(--main-color);
     }
+    
+    .blanket {
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(15, 15, 15, 0);
+        z-index: 1 ;
+    }
+
+    .changeBlanket {
+        display: block;
+        background-color: rgba(15, 15, 15, 0.5);
+        transition: 0.8s ease;
+        
+        
+    }
 
     #temp {
         top: 80px;
