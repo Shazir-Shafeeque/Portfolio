@@ -8,6 +8,7 @@
     --text-color: #8892B0;
     /* left indent */
     --left-indent: 8%;
+    --left-indent-for-mobile: 6%;
 }
 * {
     box-sizing: border-box;
@@ -19,12 +20,14 @@ html, body {
     background: var(--backgroung-color);
     /* border: 1px solid red; */
     scroll-behavior: smooth;
+    /* overflow-x: scroll; */
 }
 
 #temp {
     position: absolute;
     top: 0px;
     right: 20px;
+    /* border: 1px solid red; */
 }
 
 #temp img {
@@ -51,6 +54,7 @@ header h4 {
     font-size: 1.5vw;
     padding-bottom: 15px;
     color: var(--main-color);
+    /* border: 1px solid red; */
 }
 
 header p {
@@ -59,6 +63,7 @@ header p {
     margin: 0%;
     padding-bottom: 15px;
     font-weight: bold;
+    /* border: 1px solid red; */
 }
 
 header p span {
@@ -81,7 +86,7 @@ header article P:nth-of-type(2) {
 nav {
     height: 80px;
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); */
-    /* position: -webkit-sticky; */
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     /* border: 1px solid green; */
@@ -104,6 +109,7 @@ nav ul {
     margin: 0;
     padding: 0 1.5% 0 0;
     text-align: right;
+    /* border: 1px solid red; */
 }
 
 nav ul li {
@@ -112,6 +118,7 @@ nav ul li {
     /* display: block;
     float: right; */
     display: inline-block;
+    /* border: 1px solid yellow; */
 }
 
 nav ul li a {
