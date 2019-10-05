@@ -149,7 +149,7 @@
     #about-me {
         width: 100vw;
         height: 930px;
-        border: 1px solid green;
+        /* border: 1px solid green; */
     }
 
     #about-me article {

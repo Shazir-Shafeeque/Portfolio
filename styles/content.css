@@ -20,7 +20,7 @@ p {
     position: absolute;
     top: 15%;
     left: var(--left-indent);
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #about-me article h3 {
