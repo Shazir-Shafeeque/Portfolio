@@ -203,4 +203,14 @@
         transform: translateX(calc((30vw / 2) + 15px));
         bottom: -15px;
     }
+
+    #profile:hover + #box1 {
+        right: 50%;
+        transform: translateX(calc((30vw / 2)));
+    }
+    
+    #profile:hover ~ #box2 {
+        right: 50%;
+        transform: translateX(calc((30vw / 2)));
+    }
 }

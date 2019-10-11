@@ -92,7 +92,8 @@ p {
     /* right: calc(2 * var(--left-indent)); */
     right: 25vw;
     /* float: right; */
-    transition: 0.8s ease;
+    z-index: 1;
+    transition: 0.5s ease;
 }
 
 #about-me section img:hover {
@@ -107,14 +108,24 @@ p {
 
 #about-me section #box1 {
     position: absolute;
-    top: calc(15% + 100px);
-    right: calc(25vw + 10px);
+    top: calc(15% + 95px);
+    right: calc(25vw + 15px);
+    transition: 0.2s ease;
 }
 
 #about-me section #box2 {
     position: absolute;
-    top: calc(15% + 120px);
-    right: calc(25vw - 10px);
+    top: calc(15% + 125px);
+    right: calc(25vw - 15px);
+    transition: 0.2s ease;
+}
+
+#profile:hover + #box1 {
+    right: calc(25vw);
+}
+
+#profile:hover ~ #box2 {
+    right: calc(25vw);
 }
 
 
