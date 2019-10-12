@@ -5,11 +5,16 @@ h3, p {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     color: var(--text-color);
     text-align: left;
     /* border: 1px solid red; */
 }
+
+a {
+    text-decoration: none;
+}
+
 #about-me {
     height: 85vh;
     width: 98vw;
@@ -126,6 +131,116 @@ p {
 
 #profile:hover ~ #box2 {
     right: calc(25vw);
+}
+
+/* Achievement */
+
+#achievement {
+    height: 85vh;
+    width: 98vw;
+    position: relative;
+}
+
+#achievement article {
+    position: absolute;
+    top: 15%;
+    left: 28%;
+    width: 50vw;
+    /* border: 1px solid red; */
+}
+
+#achievement article h3 {
+    color: var(--heading-color);
+    font-size: 2vw;
+    /* border: 1px solid red; */
+    display: inline-block;
+    position: relative;
+    /* display: flex; */
+}
+
+#achievement article #line {
+    height: 1px;
+    width: 46%;
+    background-color: var(--main-color);
+    display: inline-block;
+    margin: 0px 0 0 20px;
+    /* border: 1px solid red; */
+    transform: translateY(-5px);
+}
+
+#achievement img {
+    border-radius: 5px;
+}
+
+.block {
+    position: absolute;
+    background-color:rgba(24, 35, 54, 0.99);
+    width: 35vw;
+    padding: 20px 10px 40px;
+    border-radius: 5px;
+    /* box-shadow:10px 10px 25px #131212; */
+}
+
+.block p {
+    /* border: 1px solid red; */
+    margin: 0;
+}
+
+.block p span {
+    color: var(--main-color);
+    font-family: var(--calibri-font);
+}
+
+#block1 {
+    top: 150px;
+}
+
+#block1 p {
+    text-align: right;
+}
+
+#block1 p:nth-of-type(2)  {
+    font-family: var(--code-font);
+    font-size: 13px;
+}
+
+#block2 p:nth-of-type(2) a  {
+    font-family: var(--code-font);
+    font-size: 13px;
+    color: var(--text-color);
+}
+
+#block2 {
+    top: 350px;
+    left: 215px;
+}
+
+#springer {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:300px;
+    left: 0;
+    transform: scale(0.5);
+    transition: 0.9s ease;
+}
+
+#degree {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:100px;
+    right: 0;
+    transform: scale(0.5);
+    transition: 0.9s ease;
+}
+
+#block1:hover ~ #degree {
+    transform: scale(1);
+}
+
+#block2:hover ~ #springer {
+    transform: scale(1);
 }
 
 

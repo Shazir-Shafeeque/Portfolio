@@ -36,6 +36,7 @@
         <h4>Hey there, I am</h4>
         <p>Shazir Shafeeque.</p>
         <p>I <span>make</span> things that <span>make difference</span>.</p>
+        <button onclick="location.href = '#about-me'">Read more</button>
       </article>
     </header>
     <!-- Navbar -->
@@ -49,7 +50,7 @@
         <ul class="nav" id="nav">
           <li><a href="#about-me" onclick="onClickMenu()">About</a></li>
           <li><a href="javascript:void(0);">Experience</a></li>
-          <li><a href="javascript:void(0);">Achievement</a></li>
+          <li><a href="#achievement">Achievement</a></li>
           <li><a href="javascript:void(0);">Skill</a></li>
           <li><a href="javascript:void(0);">Strength</a></li>
           <li><a href="javascript:void(0);">Project</a></li>
@@ -57,7 +58,7 @@
         </ul>
         <div class="menu-bg" id="menu-bg"></div>
     </nav>
-
+    <!-- About me section -->
     <section id="about-me">
       <section>
         <article>
@@ -88,8 +89,9 @@
         <div id="box1"></div>
         <div id="box2"></div>
       </section>
-      
     </section>
+
+    <!-- Experience section  -->
 
     <section id="experience">
       <article>
@@ -97,11 +99,32 @@
       </article>
     </section>
 
+    <!-- Achievement section -->
+
     <section id="achievement">
       <article>
-        <h3>Achievement</h3>
+        <div id="heading">
+          <h3>Achievements</h3>
+          <div id="line"></div>
+        </div>
+        <section>
+            <div id="block1" class="block">
+              <p><span>BTech(Hons) in Computer Engineering</span></p>
+              <p>Open University of Sri Lanka</p>
+            </div>
+            <img id="degree" src="degree.jpg">
+        </section>
+        <section>
+          <div id="block2" class="block">
+            <p><span>Research paper publication - Springer</span></p>
+            <p><a href="https://link.springer.com/chapter/10.1007/978-981-13-9129-3_4" target="_blank">"Locating the Position of a Cell Phone User Using GSM Signals"</a></p>
+          </div>
+          <img id="springer" src="springer.jpg">
+        </section>
       </article>
     </section>
+
+    <!-- Skill section-->
 
     <section>
       <article>
@@ -109,17 +132,23 @@
       </article>
     </section>
 
+    <!-- Strength section -->
+
     <section>
       <article>
         <h3>Strength</h3>
       </article>
     </section>
 
+    <!-- Project section -->
+
     <section>
       <article>
         <h3>Project</h3>
       </article>
     </section>
+
+    <!-- Contact section -->
 
     <section>
       <article>

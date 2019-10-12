@@ -213,4 +213,35 @@
         right: 50%;
         transform: translateX(calc((30vw / 2)));
     }
+
+    /* Achievement section */
+
+    #achievement article {
+        width: calc(100vw - (2 * var(--left-indent)));
+        left: var(--left-indent);
+    }
+
+    #achievement article #line {
+        width: 62vw;
+    }
+
+    .block {
+        width: 56vw;
+    }
+
+    #block1 {
+        top: 125px;
+    }
+
+    #degree {
+        top: 75px;
+    }
+
+    #block2 {
+        top: 325px;
+    }
+
+    #springer {
+        top:275px;
+    }
 }

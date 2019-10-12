@@ -9,6 +9,8 @@
     /* left indent */
     --left-indent: 8%;
     --left-indent-for-mobile: 6%;
+    --calibri-font: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    --code-font: 'Fira Code', monospace;
 }
 * {
     box-sizing: border-box;
@@ -79,6 +81,18 @@ header article P:first-of-type {
 
 header article P:nth-of-type(2) {
     color: var(--text-color);
+}
+
+header button {
+    font-family: 'Fira Code', monospace;
+    background: rgba(26, 39, 58, 0);
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    padding: 10px 10px;
+    margin-top: 10vh;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
 }
 
 /* Nav */

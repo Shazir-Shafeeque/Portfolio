@@ -17,7 +17,12 @@
         border-bottom: 2px solid var(--main-color);
     }
 
-    #about-me article h3 {
+    header button {
+        font-size: 20px;
+        margin-top: 8vh;
+    }
+
+    #about-me article h3, #achievement article h3 {
         font-size: 3vw;
         /* display: flex; */
     }
@@ -60,4 +65,18 @@
     #profile:hover ~ #box2 {
         right: calc(10vw);
     }
+
+    /* Acheivments section */
+
+    #achievement article {
+        left: 22%;
+        width: 56vw;
+        /* border: 1px solid red; */
+    }
+
+    #achievement article #line {
+        width: 58%; 
+    }
+
+
 }
