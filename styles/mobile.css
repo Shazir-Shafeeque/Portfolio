@@ -3,6 +3,10 @@
 /*Style for "Phones"*/
 @media only screen and (max-width: 480px){
     
+    p {
+        font-size: 17px;
+        /* border: 1px solid red; */
+    }
     header h4 {
         font-size: 3vw;
         padding-bottom: 5px;
@@ -30,12 +34,12 @@
         height: 885px;
     }
 
-    #about-me article {
+    #about-me article, #achievement article {
         left: var(--left-indent-for-mobile);
         width: calc(100vw - (2 * var(--left-indent-for-mobile)));
     }
 
-    #about-me article h3 {
+    #about-me article h3, #achievement article h3 {
         font-size: 6vw;
         /* border: 1px solid red; */
     }
@@ -100,5 +104,32 @@
         transform: translateX(calc((50vw / 2)));
     }
     
+    #achievement article #line{
+        width: 48vw;
+        margin: 0 0 0 2vw;
+    }
+    
+    #degree, #springer {
+        display: none;
+    }
+    
+    .block {
+        left: var(--left-indent-for-mobile);
+        width: calc(100vw - (2 * var(--left-indent-for-mobile)));
+    }
+    
+    #block1 {
+        top: 100px;
+        left: 0;
+    }
+    
+    #block2 {
+        top: 225px;
+        left: 0;
+    }
+    
+    #block1 p {
+        text-align: left;
+    }
 
 }
