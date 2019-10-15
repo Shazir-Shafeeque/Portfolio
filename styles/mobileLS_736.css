@@ -1,0 +1,24 @@
+
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+
+    #about-me {
+        height: 230vh;
+    }
+
+    .block {
+        width: 52vw;
+    }
+
+    #block2 {
+        left: auto;
+        right: 0;
+    }
+
+    #degree {
+        top: 99px;
+    }
+
+    #springer {
+        top: 312px;
+    }
+}

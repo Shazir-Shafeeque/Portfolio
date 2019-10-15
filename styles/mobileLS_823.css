@@ -1,0 +1,46 @@
+
+@media only screen and (max-width: 823px) and (orientation: landscape) {
+    header {
+        height: 150vh;
+    }
+
+    header h4 {
+        font-size: 2vw;
+    }
+
+    header p {
+
+        font-size: 7vw;
+    }
+
+    header button {
+        font-size: 2vw;
+        margin-top: 8vh;
+        padding: 7px;
+    }
+
+    #about-me {
+        height: 140vh;
+    }
+    #achievement article {
+        left: var(--left-indent-for-mobile);;
+        width: calc(100vw - (2 * var(--left-indent-for-mobile)));
+    }
+
+    #about-me article h3, #achievement article h3 {
+        font-size: 4vw;
+        /* border: 1px solid red; */
+    }
+
+    #about-me article #line {
+        width: 63vw; 
+    }
+
+    #achievement article #line {
+        width: 59vw;
+    }
+
+    .block {
+        width: 62vw;
+    }
+}

@@ -1,0 +1,31 @@
+
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+
+    header {
+        height: 125vh;
+    }
+
+    #about-me {
+        height: 805px;
+        /* border: 1px solid green; */
+    }
+
+    #about-me p {
+        width: calc(100vw - (3 * var(--left-indent-for-mobile)));
+    }
+
+    #degree, #springer {
+        display: none;
+    }
+
+    .block {
+        width: calc(100vw - (2 * var(--left-indent-for-mobile)) - 5px);
+        padding: 20px 10px 30px;
+    }
+
+    #block2 {
+        left: 0;
+        top: 300px;
+    }
+
+}
