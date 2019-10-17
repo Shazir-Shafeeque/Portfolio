@@ -146,13 +146,13 @@
         transform: translate(65%,-25%);
     }
 
-    #about-me {
+    #about-me, #skill  {
         width: 100vw;
         height: 930px;
         /* border: 1px solid green; */
     }
 
-    #about-me article {
+    #about-me article, #skill article {
         width: calc(100vw - (2 * var(--left-indent)));
         top: 10%;
     }
@@ -163,12 +163,12 @@
         text-align: justify;
     }
 
-    #about-me article h3 {
+    #about-me article h3, #skill article h3 {
         font-size: 3vw;
 
     }
 
-    #about-me article #line {
+    #about-me article #line, #skill article #line {
         width: 68vw;
         margin: 0 0 0 2vw;
     }

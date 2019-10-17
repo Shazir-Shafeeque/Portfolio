@@ -18,8 +18,10 @@
   <link rel="stylesheet" href="styles/mobileLS_568.css">
   
   <script src="script.js"></script>
-  <!-- Load an icon library to show a hamburger menu (bars) for small screens -->
+  <!-- Font Awesome Web Application Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- DEVICON | All programming languages and development tools related icons font -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <title>Portfolio - Shazir Shafeeque</title>
 </head>
 
@@ -54,7 +56,7 @@
           <li><a href="#about-me" onclick="onClickMenu()">About</a></li>
           <li><a href="javascript:void(0);">Experience</a></li>
           <li><a href="#achievement" onclick="onClickMenu()">Achievement</a></li>
-          <li><a href="javascript:void(0);">Skill</a></li>
+          <li><a href="#skill" onclick="onClickMenu()">Skill</a></li>
           <li><a href="javascript:void(0);">Strength</a></li>
           <li><a href="javascript:void(0);">Project</a></li>
           <li><a href="javascript:void(0);">Contact</a></li>
@@ -106,7 +108,7 @@
 
     <section id="achievement">
       <article>
-        <div id="heading">
+        <div class="heading">
           <h3>Achievements</h3>
           <div id="line"></div>
         </div>
@@ -131,9 +133,81 @@
 
     <!-- Skill section-->
 
-    <section>
+    <section id="skill">
       <article>
-        <h3>Skill</h3>
+        <div class="heading">
+          <h3>Skill Set</h3>
+          <div id="line"></div>
+        </div>
+        <section id="container">
+          <section id="html">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <i class="devicon-html5-plain-wordmark"></i>
+                </div>
+                <div class="flip-card-back">
+                  <h1>90%</h1>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="css">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <i class="devicon-css3-plain-wordmark"></i>
+                </div>
+                <div class="flip-card-back">
+                  <h1>70%</h1>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="javascript">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <i class="devicon-javascript-plain"></i>
+                </div>
+                <div class="flip-card-back">
+                  <h1>60%</h1>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="bootstrap">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <i class="devicon-bootstrap-plain-wordmark"></i>
+                </div>
+                <div class="flip-card-back">
+                  <h1>50%</h1>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="c#">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <i class="devicon-csharp-line-wordmark"></i>
+                  <!-- <i class="devicon-csharp-plain-wordmark"></i> -->
+                  <!-- <i class="devicon-csharp-line"></i> -->
+                </div>
+                <div class="flip-card-back">
+                  <h1>75%</h1>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </section>
       </article>
     </section>
 

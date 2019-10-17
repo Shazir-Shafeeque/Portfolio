@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Open+Sans+Condensed:300&display=swap');
+
+/* Number fonts */
+/* font-family: 'Big Shoulders Text', cursive;
+font-family: 'Open Sans Condensed', sans-serif; */
 
 :root {
     /* color properties rgba(41, 61, 90, 0.99); rgba(10, 24, 49, 0.99);*/
@@ -11,6 +16,8 @@
     --left-indent-for-mobile: 6%;
     --calibri-font: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     --code-font: 'Fira Code', monospace;
+    --number-font: 'Big Shoulders Text', cursive;
+    --number-font2: 'Open Sans Condensed', sans-serif;
 }
 * {
     box-sizing: border-box;

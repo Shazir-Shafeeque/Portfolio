@@ -34,12 +34,12 @@
         height: 885px;
     }
 
-    #about-me article, #achievement article {
+    #about-me article, #achievement article, #skill article {
         left: var(--left-indent-for-mobile);
         width: calc(100vw - (2 * var(--left-indent-for-mobile)));
     }
 
-    #about-me article h3, #achievement article h3 {
+    #about-me article h3, #achievement article h3, #skill article h3 {
         font-size: 6vw;
         /* border: 1px solid red; */
     }
@@ -50,6 +50,11 @@
         /* float: left !important; */
         /* border: 1px solid red; */
         /* transform: translateY(-5px); */
+    }
+
+    #skill article #line {
+        width: 62vw;
+        margin: 0 0 0 2vw;
     }
 
     /* #about-me article h3::after {

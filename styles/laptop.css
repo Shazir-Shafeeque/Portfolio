@@ -22,12 +22,12 @@
         margin-top: 8vh;
     }
 
-    #about-me article h3, #achievement article h3 {
+    #about-me article h3, #achievement article h3, #skill article h3 {
         font-size: 3vw;
         /* display: flex; */
     }
 
-    #about-me article #line {
+    #about-me article #line, #skill article line {
         width: 36vw;
     }
 
