@@ -145,7 +145,8 @@ a {
 #achievement article {
     position: absolute;
     top: 15%;
-    left: 28%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 51vw;
     /* border: 1px solid red; */
 }
@@ -249,6 +250,13 @@ a {
     color: var(--main-color);
 }
 
+#achievement .fa-external-link {
+    font-size:24px;
+    float: right;
+    font-weight: normal;
+    color: var(--text-color);
+}
+
 /* Skill set */
 
 #skill {
@@ -261,7 +269,7 @@ a {
     position: absolute;
     top: 15%;
     left: var(--left-indent);
-    width: calc(100vw - (2 * var(--left-indent)));
+    width: calc(100vw - (2.5 * var(--left-indent)));
     /* border: 1px solid red; */
 }
 /* --------------------------------------- */

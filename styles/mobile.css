@@ -137,6 +137,23 @@
         text-align: left;
     }
 
+    /* Skill section */
+
+    #skill section {
+        margin: 10px;
+    }
+
+    .flip-card {
+        width: 100px;
+        height: 100px;
+    }
+
+    .flip-card-front i {
+        top: calc(50% - 40px);
+        left: calc(50% - 40px);
+        font-size: 5rem;
+    }
+
 }
 
 

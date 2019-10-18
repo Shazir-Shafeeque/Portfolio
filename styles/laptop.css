@@ -71,11 +71,16 @@
     #achievement article {
         left: 22%;
         width: 56vw;
+        transform: initial;
         /* border: 1px solid red; */
     }
 
     #achievement article #line {
         width: 58%; 
+    }
+
+    #skill #line {
+        width: 84%; 
     }
 
 
